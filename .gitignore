@@ -1,0 +1,265 @@
+# =================================
+# AirlineAnalytics-ML .gitignore
+# =================================
+
+# =====================================
+# Python
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =====================================
+# Virtual Environments
+# =====================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+conda-meta/
+.conda/
+
+# =====================================
+# Jupyter Notebooks
+# =====================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# =====================================
+# Machine Learning Models & Data
+# =====================================
+# Trained models (keep in repo for this project)
+# *.joblib
+# *.pkl
+# *.pickle
+# *.h5
+# *.model
+
+# Large datasets (uncomment if datasets become too large)
+# data/raw/*.csv
+# data/processed/*.csv
+
+# Model artifacts
+mlruns/
+.mlflow/
+wandb/
+tensorboard_logs/
+models/checkpoints/
+
+# =====================================
+# Data Science Tools
+# =====================================
+# Jupyter Lab
+.jupyter/
+.local/share/jupyter/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# =====================================
+# IDE & Editors
+# =====================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-*
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =====================================
+# Operating System
+# =====================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =====================================
+# Environment Variables & Secrets
+# =====================================
+.env
+.env.local
+.env.*.local
+*.env
+config.ini
+secrets.json
+.secrets/
+
+# =====================================
+# Logs & Temporary Files
+# =====================================
+*.log
+logs/
+*.tmp
+*.temp
+temp/
+tmp/
+
+# =====================================
+# Docker
+# =====================================
+.dockerignore
+docker-compose.override.yml
+
+# =====================================
+# Streamlit
+# =====================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# =====================================
+# Testing & Coverage
+# =====================================
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# =====================================
+# Documentation
+# =====================================
+docs/_build/
+.sphinx/
+
+# =====================================
+# Package managers
+# =====================================
+# Poetry
+poetry.lock
+
+# Pipenv
+Pipfile.lock
+
+# =====================================
+# Project Specific
+# =====================================
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Cache directories
+cache/
+.cache/
+
+# Generated results (uncomment if you don't want to track)
+# results/
+# *.png
+# *.jpg
+# *.jpeg
+# *.pdf
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# =====================================
+# Git
+# =====================================
+*.orig
+*.rej
+
+# =====================================
+# Node.js (if using any JS tools)
+# =====================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================================
+# Misc
+# =====================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/ 
