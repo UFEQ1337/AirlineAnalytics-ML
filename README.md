@@ -242,7 +242,7 @@ python -c "from src.utils import model_health_check; print(model_health_check())
 ### Dla analityków:
 
 ```bash
-git clone <repo>
+git clone [AirlineAnalytics-ML](https://github.com/UFEQ1337/AirlineAnalytics-ML)
 pip install -r requirements.txt
 jupyter notebook  # Rozpocznij od 01_data_generation.ipynb
 ```
@@ -260,19 +260,7 @@ docker build -t airline-ml .
 docker run -p 8501:8501 airline-ml
 ```
 
----
 
-## 🏆 **OSIĄGNIĘCIA KOŃCOWE**
-
-- ✅ **50,000+ rekordów** danych syntetycznych
-- ✅ **87.3% dokładność** modeli ML
-- ✅ **Interaktywny dashboard** 3-stronnicowy
-- ✅ **Executive summary** z ROI analysis
-- ✅ **Production-ready** code z testami
-- ✅ **Containerized deployment**
-- ✅ **$16.7M oszczędności** potencjalnych rocznie
-
-**🎯 Status: PROJEKT UKOŃCZONY - READY FOR PRODUCTION! 🚀**
 
 ---
 
